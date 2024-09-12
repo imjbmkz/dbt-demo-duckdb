@@ -1,0 +1,27 @@
+[0m22:15:53.351887 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230CCCCC250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230CCCCFC50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230CCCCEC10>]}
+
+
+============================== 22:15:53.367513 | bd280b16-c742-4c16-83f2-d270610ad50c ==============================
+[0m22:15:53.367513 [info ] [MainThread]: Running with dbt=1.8.6
+[0m22:15:53.367513 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\unity\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:16:04.368583 [debug] [MainThread]: Starter project path: C:\Users\unity\Documents\Josh\Playground\dbt-demo-etc\env\Lib\site-packages\dbt\include\starter_project
+[0m22:16:04.394951 [info ] [MainThread]: 
+Your new dbt project "dbt_demo_duckdb" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:16:04.394951 [info ] [MainThread]: Setting up your profile.
+[0m22:16:07.173271 [debug] [MainThread]: Command `dbt init` succeeded at 22:16:07.173271 after 13.90 seconds
+[0m22:16:07.173271 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230CCA55CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230C6A01CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000230CCFA0E90>]}
+[0m22:16:07.173271 [debug] [MainThread]: Flushing usage events

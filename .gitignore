@@ -1,0 +1,9 @@
+# Virtual environment
+env/*
+
+# Data files
+data/*
+
+# database files
+*.duckdb
+*.db
